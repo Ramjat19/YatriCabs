@@ -1,0 +1,209 @@
+.form {
+      width: 850px;
+            height: 410px;
+      background-color: rgba(247, 247, 247, 0.846);
+      /* box-shadow: 10px 10px 8px rgba(254, 254, 254, 0.2),
+            2px 10px 2px rgba(62, 62, 62, 0.2); */
+      border-radius: 20px;
+
+}
+
+.form_button {
+      flex-direction: row;
+      display: flex;
+      gap: 36.74px;
+      margin-top: 35px;
+      justify-content: center;
+
+}
+
+.form_button_small {
+      flex-direction: row;
+      display: flex;
+      gap: 97.43px;
+      margin-top: 25px;
+      margin-bottom: 29px;
+      justify-content: center;
+}
+
+.button {
+      width: 172.25px;
+      height: 49.5px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      border: none;
+      cursor: pointer;
+      border: 2px solid rgba(33, 105, 0, 1);
+      color: rgba(160, 160, 160, 1);
+      background-color: rgba(255, 255, 255, 1);
+      font-size: 26.62px;
+      font-weight: 500;
+      font-family: Lato;
+      border-radius: 7.99px;
+      box-shadow: 2px 2px 4px green;
+}
+
+.button_small {
+      width: 146.3px;
+      height: 42.59px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      border: none;
+      cursor: pointer;
+      border: 1.6px solid rgba(33, 105, 0, 1);
+      color: rgba(160, 160, 160, 1);
+      background-color: rgba(255, 255, 255, 1);
+      font-size: 19.17px;
+      font-weight: 500;
+      font-family: Lato;
+      border-radius: 7.99px;
+      box-shadow: 2px 2px 4px green;
+      margin-top: 27px;
+}
+
+.button_big {
+      width: 270.24px;
+      height: 42.84px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      border: none;
+      cursor: pointer;
+      border: 2px solid rgba(33, 105, 0, 1);
+      background-color: rgba(33, 105, 0, 1);
+      color: rgba(255, 255, 255, 1);
+      font-size: 22.44px;
+      font-weight: 500;
+      font-family: Lato;
+      border-radius: 6.6px;
+      box-shadow: 2px 2px 4px green;
+}
+
+.submit {
+      display: flex;
+      justify-content: center;
+}
+
+.active {
+      background-color: rgba(33, 105, 0, 1);
+      color: rgba(255, 255, 255, 1);
+}
+
+.input_container {
+      position: relative;
+}
+
+label {
+      color: rgba(88, 88, 88, 1);
+      display: flex;
+      justify-content: start;
+}
+
+.input_container input {
+      border: none;
+      background-color: rgba(247, 247, 247, 0);
+      width: 100%;
+      border-bottom: 1px solid #000;
+      font-size: 16px;
+      outline: none;
+
+}
+
+.icon {
+      position: absolute;
+      right: 0%;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+}
+
+.form_container {
+      display: flex;
+      flex-direction: row;
+      /* gap: 100px; */
+      margin: 27px 0;
+      justify-content: center;
+}
+
+.arrow {
+      gap: 40px;
+}
+
+.without_arrow {
+      gap: 120px;
+}
+
+.arrow_container svg {
+      color: #00000099;
+}
+
+.arrow_container svg:nth-child(1) {
+      transform: translateY(10px);
+}
+
+
+
+
+
+@media screen and (max-width:800px) {
+    
+      .form{
+            width: 334.26px;
+            height: 161.23px;
+      }
+.form_button {
+      margin-top:13.76px ;
+      gap: 14.45px;
+}
+.form_button_small {
+    margin-bottom:11.4px ;
+    margin-top: 0px;
+    gap: 38px;
+}
+.button {
+      width: 67.8px;
+      height: 19.47px;
+      border-radius: 3.14px;
+      border-width: 0.63px;
+      font-size: 10.47px;
+
+
+}
+.button_small {
+    width: 56.53px;
+    height: 16.75px;
+    border-radius: 3.14px;
+    border-width: 0.63px;
+    font-size: 7.54px;
+    margin-top: 10.62px;
+    
+}
+.button_big{
+      width: 106.57px;
+      height: 17.23px;
+      border-radius: 2.6px;
+      border-width: 0.52px;
+      font-size: 8.82px;
+}
+.form_container{
+      margin: 8px 0;
+}
+.input_container input {
+      font-size: 10.47px;
+      border-bottom-width: 0.47px;
+      width: 104.76px;
+}
+.arrow {
+      gap: 20px;
+}
+
+.without_arrow {
+      gap: 80px;
+}
+label {
+      font-size: 5.56px;
+
+}
+}
